@@ -79,6 +79,8 @@ Ctrl+o         顺时针旋转当前窗口的面板
 
 ## 配置
 
+[配置文件".tmux.conf"](https://github.com/hoseahsu/configuration/blob/master/.tmux.conf)
+
 ### 系统启动进入tmux
 
 修改 ~/.bashrc 文件，在文件最后加上下面的内容::
