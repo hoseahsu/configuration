@@ -1,7 +1,7 @@
 # 使用 Tmux 强化终端功能
 tmux是一个优秀的终端复用软件，类似GNU Screen，但来自于OpenBSD，采用BSD授权。使用它最直观的好处就是通过一个终端登录远程主机并运行tmux后，在其中可以开启多个控制台而无需再“浪费”多余的终端来连接这台远程主机；当然其功能远不止于此。
 
-## 安装
+# 安装
 
 可以使用Ports安装tmux，位置在/usr/ports/sysutils/tmux/；tmux仅有一个依赖包libevent，位于/usr/ports/devel/libevent/。
 
@@ -20,15 +20,15 @@ window        窗口。一个会话可以包含多个窗口。
 pane        面板。一个窗口可以包含多个面板。
 ```
 
-## 基本操作
+# 基本操作
 
-### 恢复会话
+## 恢复会话
 
 ```
 tmux attach
 ```
 
-### 复制终端中字符串的步骤
+## 复制终端中字符串的步骤
 
 ```
 Ctrl+a 按 [ 进入 tmux屏幕拷贝模式
@@ -86,7 +86,7 @@ Alt+o         逆时针旋转当前窗口的面板
 Ctrl+o         顺时针旋转当前窗口的面板
 ```
 
-## 配置
+# 配置
 
 [配置文件".tmux.conf"](https://github.com/hoseahsu/configuration/blob/master/.tmux.conf)
 
