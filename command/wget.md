@@ -71,6 +71,8 @@ ftp_proxy = http://proxy.yoyodyne.com:18023/
 
 
 wget各种选项分类列表
+
+```
 * 启动 
   -V,  --version           显示wget的版本后退出
   -h,  --help              打印语法帮助
@@ -155,5 +157,7 @@ wget各种选项分类列表
   -I,  --include-directories=LIST   允许目录的列表
   -X,  --exclude-directories=LIST   不被包含目录的列表
   -np, --no-parent                  不要追溯到父目录
+```
+
 问题
 在递归下载的时候，遇到目录中有中文的时候，wget创建的本地目录名会用URL编码规则处理。如"天网防火墙"会被存为"%CC%EC%CD%F8%B7%C0%BB%F0%C7%BD",这造成阅读上的
