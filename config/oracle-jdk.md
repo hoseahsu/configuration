@@ -1,5 +1,6 @@
 # oracle-jdk
 
+# 手动安装
 要下载和安装 Java JDK8，请访问下载页获得最新的发行版本。根据你机器的 Ubuntu 系统的情况可以选择下载 32 位或 64 位的发行版本。
 
 　　这里是下载页面
@@ -31,6 +32,8 @@
 　　要验证下 Java 是否已经完全安装的话，可以运行下面的命令来测试。
 
 　　java –version
+　　
+　　
 ## 参考文献
 
-[百度知道链接](http://zhidao.baidu.com/link?url=UZ9M0i2BVm08yqxXvmPB-_l6cvErLyG8gHO4QM7qOjyhMM79RRi-AQPT9WA9PrfYaNHhQlLZVoLV4X_ufOscaroE1rCFb1pu0kgywI40qgq)
+[手动安装](http://www.bitscn.com/os/linux/201405/199753.html)
