@@ -1,9 +1,9 @@
 # configuration
 configuration
 
-0|a|b|c|d
----|---|---|---|---
-1|[software.md](https://github.com/hoseahsu/configuration/blob/master/config/software.md)|[tmux.md](https://github.com/hoseahsu/configuration/blob/master/config/tmux.md)|[.vimrc](https://github.com/hoseahsu/configuration/blob/master/config/.vimrc)|[linux.md](https://github.com/hoseahsu/configuration/blob/master/config/linux.md)
+0|a|b|c|d|e
+---|---|---|---|---|---
+1|[software.md](https://github.com/hoseahsu/configuration/blob/master/config/software.md)|[tmux.md](https://github.com/hoseahsu/configuration/blob/master/config/tmux.md)|[.vimrc](https://github.com/hoseahsu/configuration/blob/master/config/.vimrc)|[linux.md](https://github.com/hoseahsu/configuration/blob/master/config/linux.md)|[oracle-jdk](https://github.com/hoseahsu/configuration/blob/master/config/oracle-jdk.md)
 
 # build
 
