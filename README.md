@@ -7,14 +7,16 @@ configuration
 
 # build
 
-[hexo.io.md](https://github.com/hoseahsu/configuration/blob/master/build/hexo.io.md)
+0|a
+---|---
+1|[hexo.io.md](https://github.com/hoseahsu/configuration/blob/master/build/hexo.io.md)
 []()
 []()
 []()
 
 #command
 
-[linvx](https://github.com/hoseahsu/configuration/blob/master/command/linux.md)
-[vim](https://github.com/hoseahsu/configuration/blob/master/command/vim.md)
-[wget](https://github.com/hoseahsu/configuration/blob/master/command/wget.md)
-[]()
+
+0|a|b|c
+---|---|---|---
+1|[linvx](https://github.com/hoseahsu/configuration/blob/master/command/linux.md)|[vim](https://github.com/hoseahsu/configuration/blob/master/command/vim.md)|[wget](https://github.com/hoseahsu/configuration/blob/master/command/wget.md)
