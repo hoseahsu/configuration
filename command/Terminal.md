@@ -20,6 +20,8 @@ Ctrl+r 查找历史命令
 
 Ctrl+b 向回移动光标
 Ctrl+f 向前移动光标
+Ctrl+Left-Arrow 光标移动到上一个单词的词首
+Ctrl+Right-Arrow 光标移动到下一个单词的词尾
 
 Ctrl+t 将光标位置的字符和前一个字符进行位置交换
 
@@ -27,9 +29,6 @@ Ctrl+& 恢复 ctrl+h 或者 ctrl+d 或者 ctrl+w 删除的内容
 
 Ctrl+S 暂停屏幕输出
 Ctrl+Q 继续屏幕输出
-
-Ctrl+Left-Arrow 光标移动到上一个单词的词首
-Ctrl+Right-Arrow 光标移动到下一个单词的词尾
 
 Ctrl+p 向上显示缓存命令
 Ctrl+n 向下显示缓存命令
