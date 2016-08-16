@@ -31,4 +31,6 @@ Fedora系统:yum install nautilus-open-terminal
 
 ### 多平台键鼠共享
 
-[Share Mouse](http://www.keyboard-and-mouse-sharing.com/download.php) ------>   ![image](http://www.keyboard-and-mouse-sharing.com/pics/mac_win.png)
+- [Share Mouse](http://www.keyboard-and-mouse-sharing.com/download.php) ------>   ![image](http://www.keyboard-and-mouse-sharing.com/pics/mac_win.png)
+
+- [synergy](http://symless.com/synergy/) -------------> ![image](https://raw.githubusercontent.com/hoseahsu/configuration/master/.image/win-mac-debian-ubuntu.png) 
