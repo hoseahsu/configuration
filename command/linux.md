@@ -27,3 +27,8 @@ gnome-open /etc
 # ubuntu中
 nautilus /etc
 ```
+### 绝对地址的文件列表
+
+```
+$ ls | sed "s:^:`pwd`/: "
+```
