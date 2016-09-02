@@ -32,3 +32,12 @@ nautilus /etc
 ```
 $ ls | sed "s:^:`pwd`/: "
 ```
+
+### uuid/自动挂载分区
+挂载自动分区
+
+```
+$ ls -al /dev/disk/by-uuid # 复制出需要挂载分区的uuid
+$ vi /etc/fstab
+```
+按照 `uuid=<uuid>  <mount point>  <file system type>  <options> <dump> <pass>` 格式 添加一行需要挂载的信息
