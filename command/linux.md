@@ -41,3 +41,9 @@ $ ls -al /dev/disk/by-uuid # 复制出需要挂载分区的uuid
 $ vi /etc/fstab
 ```
 按照 `uuid=<uuid>  <mount point>  <file system type>  <options> <dump> <pass>` 格式 添加一行需要挂载的信息
+
+### 终端使用的shell
+
+```
+sudo vi /etc/passwd
+```
