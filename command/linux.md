@@ -47,3 +47,20 @@ $ vi /etc/fstab
 ```
 sudo vi /etc/passwd
 ```
+
+### 修改主机名
+
+#### 首先修改主机名
+
+修改/etc/hostname中的内容为你需要改的内容
+```
+$ vi /etc/hostname
+```
+
+#### 修改主机名后执行sudo时提示找不到主机
+
+修改/etc/hosts
+将其中 `127.0.1.1 XXX` 修改为：`127.0.1.1 （修改后的主机名）`
+```
+$ vi /etc/hosts
+```
