@@ -64,3 +64,7 @@ $ vi /etc/hostname
 ```
 $ vi /etc/hosts
 ```
+
+### dd
+
+sudo dd bs=4M if=~/raspberrypi/2014-09-09-wheezy-raspbian.img of=/dev/sdb && sync
