@@ -32,3 +32,39 @@ nautilus /etc
 ```
 $ ls | sed "s:^:`pwd`/: "
 ```
+
+### uuid/自动挂载分区
+挂载自动分区
+
+```
+$ ls -al /dev/disk/by-uuid # 复制出需要挂载分区的uuid
+$ vi /etc/fstab
+```
+按照 `uuid=<uuid>  <mount point>  <file system type>  <options> <dump> <pass>` 格式 添加一行需要挂载的信息
+
+### 终端使用的shell
+
+```
+sudo vi /etc/passwd
+```
+
+### 修改主机名
+
+#### 首先修改主机名
+
+修改/etc/hostname中的内容为你需要改的内容
+```
+$ vi /etc/hostname
+```
+
+#### 修改主机名后执行sudo时提示找不到主机
+
+修改/etc/hosts
+将其中 `127.0.1.1 XXX` 修改为：`127.0.1.1 （修改后的主机名）`
+```
+$ vi /etc/hosts
+```
+
+### dd
+
+sudo dd bs=4M if=~/raspberrypi/2014-09-09-wheezy-raspbian.img of=/dev/sdb && sync
