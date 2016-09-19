@@ -14,7 +14,7 @@ sudo apt-get install libmbedtls-dev
 3. 编译
 
 ```bash
-cd ~/tmp/dislocker
+cd dislocker
 cmake .
 make
 sudo make install
