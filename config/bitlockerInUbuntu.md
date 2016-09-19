@@ -48,3 +48,11 @@ sudo mount -o loop,rw /dislocker/dislocker-file /myencryptdisk
 
 这样就将该磁盘分区挂载为可读写的文件夹 /myencryptdisk 了。
 可能是因为 openSUSE 的文件浏览器 Dolphin 的关系，也可能是因为这东西本来就是这么运作的，该分区挂载后在 Dolphin 左边栏显示为 Loop Device，而不是挂载点的名称 myencryptdisk，也不是该分区的卷标。不过 Dolphin 地址栏的路径是正确地显示为 /myencryptdisk 的。
+
+
+# 参考链接
+
+[
+openSUSE Tumbleweed 上读写 Windows BitLocker 加密磁盘的例子](http://www.111cn.net/sys/Windows/109813.htm)
+
+[Use (Windows) BitLocker-encrypted drive on Ubuntu 14.04 LTS](http://askubuntu.com/questions/617950/use-windows-bitlocker-encrypted-drive-on-ubuntu-14-04-lts)
