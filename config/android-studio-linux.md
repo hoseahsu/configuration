@@ -2,7 +2,7 @@
 
 ## 安装jdk（oracle jd）
 
-[oracle-jdk 安装](https://github.com/hoseahsu/configuration/new/master/config/oracle-jdk)
+[oracle-jdk 安装](https://github.com/hoseahsu/configuration/blob/master/config/oracle-jdk.md)
 
 ## 安装 android studio
 
