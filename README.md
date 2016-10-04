@@ -14,9 +14,16 @@ configuration
 []()
 []()
 
-#command
+# command
 
 
 0|a|b|c|d
 ---|---|---|---|---
 1|[linux](https://github.com/hoseahsu/configuration/blob/master/command/linux.md)|[vim](https://github.com/hoseahsu/configuration/blob/master/command/vim.md)|[wget](https://github.com/hoseahsu/configuration/blob/master/command/wget.md)|[Terminal](https://github.com/hoseahsu/configuration/blob/master/command/Terminal.md)
+
+
+# function
+
+0|a
+---|---
+1|[cpp](https://github.com/hoseahsu/configuration/blob/master/function/cpp.md)
