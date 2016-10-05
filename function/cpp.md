@@ -33,8 +33,12 @@ amode|权限
 #include<io.h>//windows
 ```
 
----
+#### 参考
 
+[linux C之access函数](http://blog.sina.com.cn/s/blog_6a1837e90100uh5d.html)
+[C中的access函数](http://blog.chinaunix.net/uid-22785134-id-360282.html)
+
+---
 <a name="mkdir-linux"></a>
 
 ### mkdir函数-linux
