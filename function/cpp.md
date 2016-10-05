@@ -1,9 +1,39 @@
 # C++ 函数
 
-0|a|
----|---
-1|[mkdir函数-linux](#mkdir-linux)
+0|a|b|
+---|---|---
+1|[mkdir函数-linux](#mkdir-linux)|[access函数](#access)
 
+
+---
+<a name="access"></a>
+
+### access函数
+
+#### 函数原型
+```cpp
+int   access(const   char   *filename,   int   amode); 
+```
+
+#### 参数及返回值
+amode参数为0时表示检查文件的存在性，如果文件存在，返回0，不存在，返回-1。 
+
+amode|权限
+---|---
+06 | 检查读写权限 
+04 | 检查读权限 
+02 | 检查写权限 
+01 | 检查执行权限 
+00 | 检查文件的存在性
+
+#### 头文件
+
+```cpp
+#include<unistd.h>//linux
+#include<io.h>//windows
+```
+
+---
 
 <a name="mkdir-linux"></a>
 
