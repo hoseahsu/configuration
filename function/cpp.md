@@ -303,3 +303,11 @@ vector<string> getFiles(string cate_dir)
 	return files;
 }
 ```
+
+#### 参考
+
+[C/C++ 获取文件夹下所有文件名 windows和linux通用](http://blog.csdn.net/u012005313/article/details/50687297)
+
+---
+
+<a name="getFiles"></a>
